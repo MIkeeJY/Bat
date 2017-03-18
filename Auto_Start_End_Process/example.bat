@@ -1,0 +1,1 @@
+Schtasks /create /sc daily /tn a2 /tr "D:\qq\Bin\qq.exe" /st 15:44:00 /et 15:55:00

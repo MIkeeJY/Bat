@@ -1,4 +1,4 @@
-"""
+'''
 Schtasks 命令详解
 
 管理计划任务
@@ -440,4 +440,5 @@ SCHTASKS /ShowSid /TN taskname
     /?               显示帮助消息。
 
 示例:
-    SCHTASKS /ShowSid /TN "\Microsoft\Windows\RAC\RACTask""""
+    SCHTASKS /ShowSid /TN "\Microsoft\Windows\RAC\RACTask
+'''
