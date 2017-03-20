@@ -57,7 +57,7 @@ SCHTASKS /Create [/S system [/U username [/P [password]]]]
                        入密码，值必须是 "*" 或无。系统帐户会忽略该
                        密码。必须和 /RU 或 /XML 开关一起使用。
 
-/RU/XML    /SC   schedule     指定计划频率。
+    /SC   schedule     指定计划频率。
                        有效计划任务:  MINUTE、 HOURLY、DAILY、WEEKLY、
                        MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT.
 
