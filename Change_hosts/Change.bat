@@ -18,6 +18,10 @@ exit
 c:
 cd %SystemRoot%\system32\drivers\etc\
 echo. >> hosts
+
+echo 0.0.0.0 acm.hdu.edu.cn >> hosts
+echo 0.0.0.0 codeforces.com >> hosts
+echo 0.0.0.0 poj.org >> hosts
 echo 0.0.0.0 cn.bing.com >> hosts
 echo 0.0.0.0 www.google.cn >> hosts
 echo 0.0.0.0 www.so.com >> hosts
